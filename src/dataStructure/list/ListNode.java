@@ -1,5 +1,7 @@
 package dataStructure.list;
 
-public class ListNode {
+import dataStructure.BaseNode;
+
+public abstract class ListNode extends BaseNode {
 
 }

@@ -1,5 +1,7 @@
 package dataStructure.tree;
 
-public class TreeNode {
+import dataStructure.BaseNode;
+
+public class TreeNode extends BaseNode {
 
 }

@@ -1,5 +1,5 @@
 package dataStructure;
 
-public class BaseNode {
+public abstract class BaseNode {
 
 }

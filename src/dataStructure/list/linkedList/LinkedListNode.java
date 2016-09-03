@@ -1,5 +1,7 @@
 package dataStructure.list.linkedList;
 
-public class LinkedListNode {
+import dataStructure.list.ListNode;
+
+public class LinkedListNode extends ListNode {
 
 }

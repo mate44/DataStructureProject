@@ -1,5 +1,7 @@
 package dataStructure.list.queue;
 
-public class QueueNode {
+import dataStructure.list.ListNode;
+
+public class QueueNode extends ListNode {
 
 }

@@ -1,5 +1,7 @@
 package dataStructure.list.stack;
 
-public class StackNode {
+import dataStructure.list.ListNode;
+
+public class StackNode extends ListNode {
 
 }

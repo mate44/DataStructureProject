@@ -1,5 +1,7 @@
 package dataStructure.graph;
 
-public class GraphNode {
+import dataStructure.BaseNode;
+
+public class GraphNode extends BaseNode {
 
 }
