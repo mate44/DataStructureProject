@@ -2,3 +2,8 @@
 -Add to all methods a task to complete testing on that method
 -Add to all methods a task to fill in the implementation details
 -Create required classes for each data structure
+
+
+
+
+Re-think whether it is the Node's of each type that should have this inheritance relationship, or the data structures themselves.
