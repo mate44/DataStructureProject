@@ -5,5 +5,4 @@
 -Create required classes for each data structure
 -Make sure that I can't add a String and Integer to the same data structure instance.
 -Make sure that you can't create an instance of one of the data structure which doesn't implement Comparable.
--refactor Tree to BinaryTree
 -Add classes for Node objects - within each package

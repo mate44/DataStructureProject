@@ -1,14 +1,14 @@
-package dataStructure.tree;
+package dataStructure.binaryTree;
 
 import dataStructure.DataStructure;
 
-public class Tree<T extends Comparable<T>> extends DataStructure<T> {
+public class BinaryTree<T extends Comparable<T>> extends DataStructure<T> {
 	
-	public Tree() {
+	public BinaryTree() {
 		
 	}
 	
-	public Tree(T element) {
+	public BinaryTree(T element) {
 		
 	}
 	
