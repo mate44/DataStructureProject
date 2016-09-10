@@ -1,9 +1,9 @@
 -Create stump methods from design
 -Add to all methods a task to complete testing on that method
 -Add to all methods a task to fill in the implementation details
+-Add javadoc to all methods
 -Create required classes for each data structure
-
-
-
-
-Re-think whether it is the Node's of each type that should have this inheritance relationship, or the data structures themselves.
+-Make sure that I can't add a String and Integer to the same data structure instance.
+-Make sure that you can't create an instance of one of the data structure which doesn't implement Comparable.
+-refactor Tree to BinaryTree
+-Add classes for Node objects - within each package
