@@ -1,6 +1,10 @@
 package test.list.stack;
 
-//TODO - write javadoc
+/**
+ * Unit tests for the Stack data structure.
+ * @author Mat
+ *
+ */
 public class StackTesting {
 	public static void main(String[] args) {
 		//TODO - write javadoc

@@ -1,11 +1,24 @@
 package dataStructure.list.queue;
 
-//TODO - write javadoc
-public class QueueNode {
-	public QueueNode() {
+/**
+ * Class to represent a Node for the Queue data structure.
+ * @author Mat
+ *
+ */
+public class QueueNode<T extends Comparable<T>> {
+	/**
+	 * Constructor for Queue Node
+	 */
+	public QueueNode(T element) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		//TODO - fill in implementation
+		//TODO - write unit tests
+		return false;
 	}
 
 }

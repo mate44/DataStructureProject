@@ -53,7 +53,7 @@ public class Graph<T extends Comparable<T>> extends DataStructure<T> {
 	 * 
 	 * Create whatever classes are required for this (Node, Edge?)
 	 * 
-	 * Add the following to the methods created above:
+	 * Add the following to the methods created above, as well as the equals and constructor for those the Node and/or edge class:
 	 * //TODO - fill in implementation
 	 * //TODO - write unit tests
 	 * //TODO - write javadoc
@@ -71,7 +71,6 @@ public class Graph<T extends Comparable<T>> extends DataStructure<T> {
 	public String toString() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return null;
 	}
 
@@ -79,14 +78,12 @@ public class Graph<T extends Comparable<T>> extends DataStructure<T> {
 	public void clear() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 	}
 
 	@Override
 	public boolean isEmpty() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return false;
 	}
 

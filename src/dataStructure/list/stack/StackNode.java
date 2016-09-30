@@ -1,10 +1,23 @@
 package dataStructure.list.stack;
 
-//TODO - write javadoc
-public class StackNode {
-	public StackNode() {
+/**
+ * Class to represent a Node for the Stack data structure.
+ * @author Mat
+ *
+ */
+public class StackNode<T extends Comparable<T>> {
+	/**
+	 * Constructor for Stack Node
+	 */
+	public StackNode(T element) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		//TODO - fill in implementation
+		//TODO - write unit tests
+		return false;
 	}
 }

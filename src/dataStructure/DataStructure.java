@@ -4,16 +4,17 @@ package dataStructure;
 public abstract class DataStructure<T extends Comparable<T>> {
 	
 	@Override
-	//TODO - write javadoc
 	public abstract boolean equals(Object obj);
 	
 	@Override
-	//TODO - write javadoc
 	public abstract String toString();
 	
 	//TODO - write javadoc
 	public abstract void clear();
 	
-	//TODO - write javadoc
+	/**
+	 * Tests if there are any items in the data structure.
+	 * @return true, if there are no items in the data structure.
+	 */
 	public abstract boolean isEmpty();
 }

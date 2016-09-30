@@ -5,43 +5,56 @@ import dataStructure.list.List;
 //TODO - write javadoc
 public class Stack<T extends Comparable<T>> extends List<T> {
 	
+	/**
+	 * Empty Constructor. Creates a new empty Stack.
+	 */
 	public Stack() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 	}
 	
+	/**
+	 * Constructor. Creates a new Stack with its first element.
+	 * @param element is the value of the first Node in the Stack.
+	 */
 	public Stack(T element) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 	}
 	
+	/**
+	 * Returns and removes the top element from the Stack.
+	 * @return the value of the top Node of the Stack.
+	 */
 	public T pop() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return null;
 	}
 	
+	/**
+	 * Returns the top element from the Stack.
+	 * @return the value of the top Node on the Stack.
+	 */
 	public T peek() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return null;
 	}
 	
+	/**
+	 * Adds a new Node to the top of the Stack.
+	 * @param element is the value of the Node to be added to the top of the Stack.
+	 */
 	public void push(T element) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 	}
 
 	@Override
 	public boolean equals(Object obj) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return false;
 	}
 
@@ -49,7 +62,6 @@ public class Stack<T extends Comparable<T>> extends List<T> {
 	public String toString() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return null;
 	}
 
@@ -57,14 +69,12 @@ public class Stack<T extends Comparable<T>> extends List<T> {
 	public void clear() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 	}
 
 	@Override
 	public boolean isEmpty() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return false;
 	}
 
@@ -72,7 +82,6 @@ public class Stack<T extends Comparable<T>> extends List<T> {
 	public int size() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return 0;
 	}
 
@@ -80,7 +89,6 @@ public class Stack<T extends Comparable<T>> extends List<T> {
 	public T[] toArray() {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return null;
 	}
 
@@ -88,7 +96,6 @@ public class Stack<T extends Comparable<T>> extends List<T> {
 	public boolean contains(T element) {
 		//TODO - fill in implementation
 		//TODO - write unit tests
-		//TODO - write javadoc
 		return false;
 	}
 
