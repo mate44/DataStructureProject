@@ -1,5 +1,7 @@
 package test.tree;
 
+import dataStructure.binaryTree.*;;
+
 /**
  * Unit tests for the Binary Tree data structure.
  * @author Mat

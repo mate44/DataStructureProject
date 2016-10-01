@@ -1,5 +1,7 @@
 package test.list.queue;
 
+import dataStructure.list.queue.*;;
+
 /**
  * Unit tests for the Queue data structure.
  * @author Mat

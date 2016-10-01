@@ -6,7 +6,6 @@ import dataStructure.list.List;
 public class LinkedList<T extends Comparable<T>> extends List<T> {
 	public static void main(String[] args) {
 		//TODO - delete this method
-		
 		LinkedList<String> list1 = new LinkedList<String>();
 		
 		LinkedList<String> list2 = new LinkedList<String>("abc");
@@ -21,7 +20,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 	 */
 	public LinkedList() {
 		head = null;
-		//TODO - write unit tests
 	}
 	
 	/**
@@ -30,7 +28,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 	 */
 	public LinkedList(T element) {
 		head = new LinkedListNode<T>(element);
-		//TODO - write unit tests
 	}
 	
 	/**
@@ -88,7 +85,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 			}
 			current.setNext(element);
 		}
-		//TODO - write unit tests
 	}
 	
 	/**
@@ -146,7 +142,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 			}
 			return current.getElement();
 		}
-		//TODO - write unit tests
 	}
 	
 	/**
@@ -203,7 +198,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 		}
 		retString += element.getElement().toString();	//Append the last one so it doesn't finish with a comma
 		
-		//TODO - write unit tests
 		return retString;
 	}
 
@@ -212,7 +206,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 		while (head != null) {
 			this.remove(0);
 		}
-		//TODO - write unit tests
 	}
 
 	@Override
@@ -222,7 +215,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 		} else {
 			return false;
 		}
-		//TODO - write unit tests
 	}
 
 	@Override
@@ -233,7 +225,6 @@ public class LinkedList<T extends Comparable<T>> extends List<T> {
 			count++;
 			element = element.getNext();
 		}
-		//TODO - write unit tests
 		return count;
 	}
 

@@ -2,3 +2,4 @@
 -Make sure that you can't create an instance of one of the data structure which doesn't implement Comparable.
 -Create unit test classes for Node classes and Edge class for Graph (if applicable).
 -Think about which methods should throw exceptions. eg: negative index in a list.
+-Write javadoc for all testing methods

@@ -1,5 +1,7 @@
 package test.graph;
 
+import dataStructure.graph.*;;
+
 /**
  * Unit test cases for the Graph data structure.
  * @author Mat
